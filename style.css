@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   --black: hsl(240, 6%, 13%);
@@ -87,7 +92,7 @@ p {
 }
 
 ul {
-  margin-top: 4rem;
+  margin-top: 2.6rem;
 
   list-style: none;
   padding: 0;
@@ -96,4 +101,8 @@ ul {
   gap: 8.5px;
 
   justify-content: center;
+}
+
+img {
+  border-radius: 50%;
 }
