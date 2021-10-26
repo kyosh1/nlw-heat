@@ -22,7 +22,7 @@ async function getGithubProfile() {
     const { name, bio, avatar_url } = res.data;
 
     username.textContent = name;
-    avatar.src = avatar_url;
+    user_avatar.src = avatar_url;
     bioU.textContent = bio || "As a developer focused on web programming";
 }
 
